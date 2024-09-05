@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML FORM</title>
+  </head>
+  <body>
+    <form>
+      <input type="text" placeholder="Name" name="name" />
+      <input type="password" placeholder="password" name="password" />
+      <input list="browsers" name="browser" placeholder="Browser" />
+
+      <datalist id="browsers">
+        <option value="Edge"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+      </datalist>
+
+      <input type="submit" />
+    </form>
+  </body>
+</html>
